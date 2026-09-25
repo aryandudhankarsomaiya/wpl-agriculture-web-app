@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Farm Location Map</title>
+
+    <link rel="stylesheet" type="text/css" href="nav.css">
+
+</head>
+
+<body bgcolor="#E8F5E9">
+
+<center>
+
+    <!-- Navigation Bar -->
+
+    <div class="navbar">
+
+        <a href="farm-map.html">Farm Map</a>
+        <a href="crop.html">Crop Details</a>
+        <a href="wheat.html">Wheat</a>
+        <a href="irrigation.html">Irrigation</a>
+        <a href="recommendation.html">Recommendation</a>
+
+    </div>
+
+    <br>
+
+    <table width="700" bgcolor="#C8E6C9" border="1" cellpadding="10">
+
+        <tr>
+
+            <td align="center">
+
+                <font color="darkgreen" size="6">
+
+                    <b>Farm Location Map</b>
+
+                </font>
+
+                <hr color="green" width="80%">
+
+                <font size="4" color="brown">
+
+                    Click on different farm regions to view crop and irrigation details.
+
+                </font>
+
+                <br><br>
+
+
+                <!-- Farm Image -->
+
+                <img src="farm.png"
+                     alt="Farm Map"
+                     usemap="#farmmap"
+                     width="600"
+                     height="400"
+                     border="3">
+
+
+                <!-- Image Map -->
+
+                <map name="farmmap">
+
+                    <!-- Sugarcane -->
+
+                    <area shape="rect"
+                          coords="50,50,200,150"
+                          href="crop.html"
+                          alt="Sugarcane Field">
+
+
+                    <!-- Wheat -->
+
+                    <area shape="rect"
+                          coords="400,100,600,400"
+                          href="wheat.html"
+                          alt="Wheat Field">
+
+
+                    <!-- Irrigation -->
+
+                    <area shape="circle"
+                          coords="300,250,70"
+                          href="irrigation.html"
+                          alt="Irrigation Area">
+
+                </map>
+
+
+                <br><br>
+
+
+                <!-- Farm Regions -->
+
+                <table width="90%" border="1" cellpadding="8" bgcolor="#F1F8E9">
+
+                    <tr bgcolor="#81C784">
+
+                        <th colspan="2">
+
+                            <font color="white" size="5">
+                                Farm Regions
+                            </font>
+
+                        </th>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td align="center">🌱</td>
+
+                        <td>
+                            <b>Region 1:</b> Sugarcane Crop Details
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td align="center">🌾</td>
+
+                        <td>
+                            <b>Region 2:</b> Wheat Crop Details
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td align="center">💧</td>
+
+                        <td>
+                            <b>Region 3:</b> Irrigation Information
+                        </td>
+
+                    </tr>
+
+                </table>
+
+
+                <br>
+
+
+                <font color="darkgreen">
+
+                    <b>Smart Agriculture | HTML Image Map Practical</b>
+
+                </font>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</center>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.price-table {
+    width: 95%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.price-table th,
+.price-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.price-table th {
+    background-color: #90CAF9;
+}
+
+.price-table .main-header th {
+    background-color: #42A5F5;
+}
+
+.price-table tr:nth-child(even) {
+    background-color: #E3F2FD;
+}
+
+.price-table tr:nth-child(odd) {
+    background-color: white;
+}
