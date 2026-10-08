@@ -1,0 +1,123 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0fdf4;
+    color: #334155;
+    padding: 20px;
+    margin: 0;
+}
+.student-header {
+    background: #ffffff;
+    border-bottom: 3px solid #16a34a;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    color: #16a34a;
+}
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sidebar {
+    width: 260px;
+    float: left; 
+    background-color: #ffffff;
+    padding: 25px;
+    border: 1px solid #dcfce7;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(22, 163, 74, 0.1);
+}
+.sidebar h3 {
+    margin-top: 0;
+    color: #15803d;
+    font-size: 1.4em;
+    border-bottom: 2px dashed #bbf7d0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.category-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.category-list li {
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #475569;
+    transition: all 0.3s ease;
+}
+.category-list li:hover {
+    color: #16a34a;
+    background-color: #dcfce7;
+    transform: translateX(8px);
+    box-shadow: 0 4px 6px rgba(22, 163, 74, 0.05);
+}
+.content-area {
+    float: left;
+    margin-left: 40px;
+    width: calc(100% - 370px);
+}
+.book-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    margin: 0 20px 20px 0;
+    padding: 30px 20px;
+    border: 1px solid #e2e8f0;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.book-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(22, 163, 74, 0.15);
+    border-color: #bbf7d0;
+}
+.card-icon {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+.book-card h4 {
+    margin: 0 0 10px 0;
+    color: #15803d;
+    font-size: 1.2em;
+}
+.book-card .desc {
+    font-size: 0.9em;
+    color: #64748b;
+    line-height: 1.5;
+    height: 40px;
+}
+.book-card .price {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #16a34a;
+    background: #f0fdf4;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+.book-card button {
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 0.9em;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+.book-card button:hover {
+    background-color: #15803d;
+}
